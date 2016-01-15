@@ -249,6 +249,11 @@ $-zf-flex-align: (
       }
       > .column { @include grid-col-uncollapse($gutter); }
     }
+    
+    // Responsive expanding
+    .#{$-zf-size}-expand {
+      flex: auto;
+    }
   }
 
   // Sizing (shrink)
